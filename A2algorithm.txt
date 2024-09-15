@@ -1,0 +1,44 @@
+Goal: The program's goal is to read a file named "students_scores.txt," containing student names and grades, and perform the following tasks:
+
+Parse the file.
+Store grades for each student.
+Find and display the highest and lowest grades for each student.
+Optionally, show a sorted list of grades.
+Handle and display messages for invalid grades (negative numbers).
+
+
+Input(s):
+
+"students_scores.txt" file with student names and grades in a specific format.
+
+
+Output(s):
+
+For each student:
+Display the student's name.
+Show the highest and lowest grades.
+display the sorted list of grades.
+Handle messages for invalid grades (negative numbers).
+
+
+
+Steps:
+
+//input inclusions as needed
+//create student class with name and grade
+//create findMax to thow (continue code)
+//create findMin to throw
+//create sorting
+// Swap elements
+//start main
+// Create a Student object for each student
+// Read the student's name from the current line
+// Read the line with grades
+// Consume the comma separator
+// Exit the loop on invalid grade
+// Set the flag to true for invalid grades
+// Add a valid grade to the student's grades vector
+// If grades are not invalid, add the student to the vector
+// Loop through the students to find max, min, and sort grades
+// Add valid grade to the student's grades vector
+
